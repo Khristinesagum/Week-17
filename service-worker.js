@@ -1,15 +1,13 @@
-const { response } = require("express");
-
 var cacheName = 'petstore-v1';
 var cacheFiles = [
-'index.html',
-'product.js',
-'petstore.webmanifest',
-'images/catfood.png',
-'images/yarn.jpg',
-'images/litter.jpg',
-'images/cat.jpg',
-'images/icon-store-512.png'
+    'index.html',
+    'product.js',
+    'petstore.webmanifest',
+    'images/catfood.png',
+    'images/yarn.jpg',
+    'images/litter.jpg',
+    'images/cat.jpg',
+    'images/icon-store-512.png'
 
 ];
 
